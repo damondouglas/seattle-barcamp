@@ -1,0 +1,44 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+.vscode
+
+# Flutter/Dart/Pub related
+client/**/doc/api/
+client/.dart_tool
+client/.flutter-plugins
+client/.packages
+client/.pub-cache
+client/.pub
+client/build
+
+# Web related
+client/lib/generated_plugin_registrant.dart
+
+# Exceptions to above rules.
+!client/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Firebase related
+client/.firebase
+
+# Mobile app related
+# The goal of this project is webonly and therefore ignoring mobile related files
+client/android
+client/ios

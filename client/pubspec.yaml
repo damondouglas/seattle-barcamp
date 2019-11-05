@@ -1,0 +1,35 @@
+name: barcamp
+description: Seattle Barcamp 2019 website.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/convo.png
+    - assets/images/froggie.png
+    - assets/images/cal.png
+    - assets/images/map.png
+  fonts:
+     - family: Montserrat
+       fonts:
+         - asset: fonts/Montserrat-Regular.ttf
+         - asset: fonts/Montserrat-Italic.ttf
+           style: italic
+         - asset: fonts/Montserrat-Bold.ttf
+           weight: 700
+     - family: RockSalt
+       fonts:
+         - asset: fonts/RockSalt-Regular.ttf
