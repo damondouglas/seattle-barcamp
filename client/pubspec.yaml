@@ -7,6 +7,7 @@ environment:
   sdk: ">=2.2.0 <3.0.0"
 
 dependencies:
+  firebase: ^6.0.0
   flutter:
     sdk: flutter
 
@@ -18,10 +19,18 @@ flutter:
 
   uses-material-design: true
   assets:
-    - assets/images/convo.png
     - assets/images/froggie.png
     - assets/images/cal.png
     - assets/images/map.png
+
+#   Expects firebase configuration details
+#   Not committed with repo.
+#   {
+#     "apiKey": "...",
+#     "authDomain": "...",
+#     "databaseURL": "..."
+#   }
+    - assets/firebase/config.json
   fonts:
      - family: Montserrat
        fonts:

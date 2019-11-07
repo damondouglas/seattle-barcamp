@@ -1,7 +1,9 @@
 import 'dart:math';
 
+import 'package:barcamp/main.dart';
 import 'package:barcamp/pages/appbar.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase/firebase.dart' as fb;
 
 class HomePage extends StatelessWidget {
   @override
@@ -19,6 +21,8 @@ class HomePage extends StatelessWidget {
 class _Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var provider = fb.GoogleAuthProvider();
+    var authenticated = Authenticated.of(context);
     final crossedOutStyle = TextStyle(
       decoration: TextDecoration.lineThrough,
       color: Colors.black45,
@@ -132,7 +136,9 @@ class _Body extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
-            onPressed: () => {},
+            onPressed: () async => {
+              await authenticated.auth.signInWithPopup(provider)
+            },
             color: Colors.redAccent,
           )
         ],
@@ -153,7 +159,6 @@ class _InfoCard extends StatelessWidget {
         children: <Widget>[
           Padding(
             padding: const EdgeInsets.all(8.0),
-//            child: Text(this.title, style: Theme.of(context).textTheme.headline),
           child: Column(
             children: this.content.map(
                     (String item) => Text(

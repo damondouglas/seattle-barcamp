@@ -37,6 +37,7 @@ client/lib/generated_plugin_registrant.dart
 
 # Firebase related
 client/.firebase
+client/assets/firebase/config.json
 
 # Mobile app related
 # The goal of this project is webonly and therefore ignoring mobile related files
