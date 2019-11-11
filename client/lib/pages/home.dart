@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:barcamp/pages/appbar.dart';
+import 'package:barcamp/pages/calendar.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -127,12 +128,14 @@ class _Body extends StatelessWidget {
           ),
           FlatButton(
             child: Text(
-              'RSVP',
+              'Add To Calendar',
               style: TextStyle(
                 color: Colors.white,
               ),
             ),
-            onPressed: () => {},
+            onPressed: () => {
+              chooseProvider(context)
+            },
             color: Colors.redAccent,
           )
         ],
