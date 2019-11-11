@@ -13,6 +13,7 @@ class HomePage extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: _Body(),
       ),
+      bottomNavigationBar: bottomAppBar,
     );
   }
 }
@@ -23,12 +24,12 @@ class _Body extends StatelessWidget {
     final crossedOutStyle = TextStyle(
       decoration: TextDecoration.lineThrough,
       color: Colors.black45,
-      fontSize: 35.0,
+      fontSize: 33.0,
       fontFamily: 'RockSalt',
     );
     final normalStyle = TextStyle(
       color: Colors.black87,
-      fontSize: 35.0,
+      fontSize: 33.0,
       fontFamily: 'RockSalt',
     );
     return SingleChildScrollView(
@@ -131,10 +132,9 @@ class _Body extends StatelessWidget {
             onPressed: () => {
               if (isMobileDevice(context)) {
                 openOther()
-              } else
-                {
-                  chooseProvider(context)
-                }
+              } else {
+                chooseProvider(context)
+              }
             },
             color: Colors.redAccent,
           )

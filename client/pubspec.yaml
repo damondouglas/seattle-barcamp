@@ -7,6 +7,7 @@ environment:
   sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
+  link: ^1.1.0
   flutter:
     sdk: flutter
 
@@ -21,6 +22,10 @@ flutter:
     - assets/images/froggie.png
     - assets/images/cal.png
     - assets/images/map.png
+    - assets/images/whatis.jpg
+    - assets/images/stickers.png
+    - assets/images/flutter.png
+    - assets/images/github.png
   fonts:
      - family: Montserrat
        fonts:
