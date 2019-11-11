@@ -10,6 +10,9 @@ enum Provider {
   Other
 }
 
+void openOther() => window.open(otherCalendarURL, "");
+void openGoogle() => window.open(googleCalendarURL, "");
+
 Future<void> chooseProvider(BuildContext context) async {
   switch(await showDialog(
       context: context,
@@ -34,10 +37,10 @@ Future<void> chooseProvider(BuildContext context) async {
       }
   )) {
     case Provider.Google:
-      window.open(googleCalendarURL, "");
+      openGoogle();
       break;
     case Provider.Other:
-      window.open(otherCalendarURL, "");
+      openOther();
       break;
   }
 }

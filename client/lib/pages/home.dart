@@ -31,11 +31,6 @@ class _Body extends StatelessWidget {
       fontSize: 35.0,
       fontFamily: 'RockSalt',
     );
-    final checkStyle = TextStyle(
-      color: Colors.blueAccent,
-      fontSize: 35.0,
-      fontFamily: 'RockSalt',
-    );
     return SingleChildScrollView(
       child: Column(
         children: <Widget>[
@@ -134,7 +129,12 @@ class _Body extends StatelessWidget {
               ),
             ),
             onPressed: () => {
-              chooseProvider(context)
+              if (isMobileDevice(context)) {
+                openOther()
+              } else
+                {
+                  chooseProvider(context)
+                }
             },
             color: Colors.redAccent,
           )
@@ -174,4 +174,9 @@ class _InfoCard extends StatelessWidget {
       ),
     );
   }
+}
+
+bool isMobileDevice(BuildContext context) {
+  final size = MediaQuery.of(context).size;
+  return size.width < 900;
 }
