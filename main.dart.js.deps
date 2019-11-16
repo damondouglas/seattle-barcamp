@@ -1,4 +1,4 @@
-file:///Users/dd/projects/barcamp/client/.dart_tool/flutter_build/41d274a81c1261296bb37c7d7ede0103/main.dart
+file:///Users/dd/projects/barcamp/client/.dart_tool/flutter_build/c60501128bb0a1f1eb3f9a42f488b299/main.dart
 file:///Users/dd/projects/barcamp/client/.packages
 file:///Users/dd/projects/barcamp/client/lib/main.dart
 file:///Users/dd/projects/barcamp/client/lib/pages/appbar.dart
@@ -25,7 +25,7 @@ file:///Users/dd/tools/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.1
 file:///Users/dd/tools/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/src/unmodifiable_wrappers.dart
 file:///Users/dd/tools/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/src/utils.dart
 file:///Users/dd/tools/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.11/lib/src/wrappers.dart
-file:///Users/dd/tools/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.7/lib/meta.dart
+file:///Users/dd/tools/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.1.8/lib/meta.dart
 file:///Users/dd/tools/flutter/.pub-cache/hosted/pub.dartlang.org/typed_data-1.1.6/lib/typed_buffers.dart
 file:///Users/dd/tools/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8/lib/hash.dart
 file:///Users/dd/tools/flutter/.pub-cache/hosted/pub.dartlang.org/vector_math-2.0.8/lib/src/vector_math_64/aabb2.dart
@@ -66,11 +66,13 @@ file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/comp
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/engine_delegate.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/fonts.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/image.dart
+file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/image_filter.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/initialization.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/layer.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/layer_scene_builder.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/layer_tree.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/path.dart
+file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/path_metrics.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/picture.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/picture_recorder.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/_engine/engine/compositor/platform_message.dart
@@ -149,6 +151,8 @@ file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/ui/src/ui/initializ
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/ui/src/ui/lerp.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/ui/src/ui/natives.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/ui/src/ui/painting.dart
+file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/ui/src/ui/path.dart
+file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/ui/src/ui/path_metrics.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/ui/src/ui/pointer.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/ui/src/ui/semantics.dart
 file:///Users/dd/tools/flutter/bin/cache/flutter_web_sdk/lib/ui/src/ui/test_embedding.dart
@@ -182,6 +186,8 @@ file:///Users/dd/tools/flutter/packages/flutter/lib/src/cupertino/bottom_tab_bar
 file:///Users/dd/tools/flutter/packages/flutter/lib/src/cupertino/button.dart
 file:///Users/dd/tools/flutter/packages/flutter/lib/src/cupertino/colors.dart
 file:///Users/dd/tools/flutter/packages/flutter/lib/src/cupertino/constants.dart
+file:///Users/dd/tools/flutter/packages/flutter/lib/src/cupertino/context_menu.dart
+file:///Users/dd/tools/flutter/packages/flutter/lib/src/cupertino/context_menu_action.dart
 file:///Users/dd/tools/flutter/packages/flutter/lib/src/cupertino/date_picker.dart
 file:///Users/dd/tools/flutter/packages/flutter/lib/src/cupertino/dialog.dart
 file:///Users/dd/tools/flutter/packages/flutter/lib/src/cupertino/icon_theme_data.dart
