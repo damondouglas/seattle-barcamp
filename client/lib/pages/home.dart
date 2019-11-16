@@ -39,14 +39,14 @@ class _Body extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               _InfoCard('assets/images/cal.png', [
-                'DECEMBER 13',
-                '12 - 6 PM',
+                'FEB 2020',
+                'TBD',
                 ''
               ]),
               _InfoCard('assets/images/map.png', [
-                'MAKERS',
-                '92 LENORA ST',
-                'SEATTLE'
+                'SEATTLE',
+                'TBD',
+                '',
               ])
             ],
           ),
@@ -122,22 +122,23 @@ class _Body extends StatelessWidget {
               ),
             ],
           ),
-          FlatButton(
-            child: Text(
-              'Add To Calendar',
-              style: TextStyle(
-                color: Colors.white,
-              ),
-            ),
-            onPressed: () => {
-              if (isMobileDevice(context)) {
-                openOther()
-              } else {
-                chooseProvider(context)
-              }
-            },
-            color: Colors.redAccent,
-          )
+//          FlatButton(
+//            child: Text(
+//              'Add To Calendar',
+//              style: TextStyle(
+//                color: Colors.white,
+//              ),
+//            ),
+//
+//            onPressed: () => {
+//              if (isMobileDevice(context)) {
+//                openOther()
+//              } else {
+//                chooseProvider(context)
+//              }
+//            },
+//            color: Colors.redAccent,
+//          )
         ],
       ),
     );
